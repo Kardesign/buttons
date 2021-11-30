@@ -1,0 +1,18 @@
+.container {
+    /* background: rgb(235, 36, 36); */
+
+}
+
+.cuadro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+    gap: 10px;
+    
+}
+
+.cuadro >*{
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 20px;
+}
+
